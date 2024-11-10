@@ -92,8 +92,8 @@ def pyxel_html_generate(args):
     if pad_bool:
         pad_opt = 'gamepad="enabled" '
 
-    # PyScriptのコードのエスケープ
-    py_script = py_script_code.replace('"', '&quot;')
+    # Pyxelコードのエスケープ
+    py_script = py_script_code.replace('"', '&quot;').replace("<", "&lt;").replace(">", "&gt;").replace("&", "&amp;")
 
     # HTMLを生成
     return f"""
