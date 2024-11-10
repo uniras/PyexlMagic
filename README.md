@@ -1,8 +1,8 @@
-# PyScript Magic Command
+# Pyxel Magic Command
 
 ## 概要
 
-Jypyter(notebook/lab)・VSCodeまたはGoogle ColabでコードセルのPythonコードをPyScriptを使ってiframe(ブラウザ)上で実行するマジックコマンドです。
+Jypyter(notebook/lab)・VSCodeまたはGoogle ColabでコードセルのPythonコードをPyxelを使ってiframe(ブラウザ)上で実行するマジックコマンドです。
 
 ## 使い方
 
