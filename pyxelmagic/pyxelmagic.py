@@ -111,7 +111,7 @@ def pyxel_html_generate(args):
 
 
 # Pyxelを実行する
-def run_pixel(args):
+def run_pyxel(args):
     run_pyscript(args, pyxel_html_generate)
 
 
@@ -137,7 +137,7 @@ def runpyx(line, cell):
     args["htmlmode"] = False
 
     # Pyxelを実行
-    run_pixel(args)
+    run_pyxel(args)
 
 
 @magic.register_cell_magic
@@ -151,7 +151,7 @@ def genpyx(line, cell):
     args["htmlmode"] = True
 
     # PyScriptを実行
-    run_pixel(args)
+    run_pyxel(args)
 
 
 def parse_pys_args(line):

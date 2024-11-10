@@ -1,1 +1,1 @@
-from .pyxelmagic import register_pyxelmagic, run_pixel # noqa
+from .pyxelmagic import register_pyxelmagic, run_pyxel # noqa
