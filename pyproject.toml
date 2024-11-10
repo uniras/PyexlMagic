@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyxelmagic"
-version = "1.0.6"
+version = "1.0.8"
 description = "This Python package is a magic command that executes Python code in code cells on Jupyter and Google Colab using PyScript within an iframe."
 readme = "README.md"
 authors = [
@@ -29,5 +29,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/uniras/PyScriptMagic"
-Repository = "https://github.com/uniras/PyScriptMagic"
+Homepage = "https://github.com/uniras/PyxelMagic"
+Repository = "https://github.com/uniras/PyxelMagic"
