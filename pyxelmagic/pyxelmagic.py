@@ -15,7 +15,7 @@ def register_pyxelmagic():
 
 def pyxel_html_generate(args):
     # 引数の取得
-    py_script = args.get("py_script", "")
+    py_script_code = args.get("py_script", "")
     background = args.get("background", "white")
     js_src = args.get("js_src", None)
     add_src = args.get("add_src", None)
@@ -91,6 +91,9 @@ def pyxel_html_generate(args):
 
     if pad_bool:
         pad_opt = 'gamepad="enabled" '
+
+    # PyScriptのコードのエスケープ
+    py_script = py_script_code.replace('"', '\\"')
 
     # HTMLを生成
     return f"""
