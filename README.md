@@ -12,9 +12,9 @@ Jypyter(notebook/lab)・VSCodeまたはGoogle ColabでコードセルのPython�
 
 ```python
 %pip install -q -U pysmagic pyxelmagic
-from pyxelmagic import register_pixelmagic
+from pyxelmagic import register_pyxelmagic
 
-register_pysmagic()
+register_pyxelmagic()
 ```
 
 ### マジックコマンドの使い方
@@ -52,8 +52,8 @@ pyxel.run(update, draw)
 - width: iframeの幅を指定します。デフォルトは500です。
 - height: iframeの高さを指定します。デフォルトは500です。
 - gamepad: バーチャルゲームパッドを表示するか指定します。デフォルトはFalseです。
-- packages: Pyhtonのパッケージを''で囲んだ文字列のJSON配列形式で指定します。デフォルトは[]です。
-- js_src: 外部JavaScriptのURLを''で囲んだ文字列のJSON配列形式で指定します。デフォルトは[]です。
+- packages: Pyhtonのパッケージを''で囲んだ文字列のJSON配列形式で指定します。デフォルトは'[]'です。
+- js_src: 外部JavaScriptのURLを''で囲んだ文字列のJSON配列形式で指定します。デフォルトは'[]'です。
 
 #### %%genpyx
 
