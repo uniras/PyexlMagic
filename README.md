@@ -43,7 +43,7 @@ pyxel.run(update, draw)
 
 #### %%runpyx
 
-コードセルのコードをPyScriptを使ってiframe内で実行します。
+コードセルのコードをPyxelを使ってiframe内で実行します。
 
 ```jupyter
 %%runpyx [width] [height] [gamepad] [packages] [js_src]
